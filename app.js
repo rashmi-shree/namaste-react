@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const heading = React.createElement(
     "h1",
     {
@@ -14,7 +17,7 @@ const parent = React.createElement(
         {
             id:"child"
         },
-        [React.createElement("h1",{}, "hellooo h1 I am nested elements"),
+        [React.createElement("h1",{}, "hellooo h1 I am nested elements 😄"),
         React.createElement("h2",{}, "hellooo h2 I am nested elements")]
     )
     )
