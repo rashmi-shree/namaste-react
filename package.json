@@ -2,8 +2,9 @@
   "name": "namaskara-react",
   "version": "1.0.0",
   "description": "this is namaskara react app for practice learning from akshay saini",
-  // "main": "app.js",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
